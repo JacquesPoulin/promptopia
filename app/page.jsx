@@ -12,8 +12,8 @@ const Home = () => {
 				</span>
 			</h1>
 			<p className='desc text-center'>
-				"Promptopia", l'outil d'inspiration alimenté par l'IA en open-source
-				conçu pour le monde contemporain, où vous pouvez explorer, créer et
+				"Promptopia", l'outil d'inspiration alimenté par l'IA en "open-source"
+				et conçu pour le monde contemporain, où vous pouvez explorer, créer et
 				partager des prompts créatifs en toute liberté.
 			</p>
 

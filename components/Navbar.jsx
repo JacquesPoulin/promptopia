@@ -74,7 +74,7 @@ const Navbar = () => {
 					<div className='flex'>
 						<Image
 							src={session?.user.image}
-							alt='Photo de profile'
+							alt='Photo de profil'
 							width={37}
 							height={37}
 							className='rounded-full'

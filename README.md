@@ -14,10 +14,8 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Deployed on Vercel
 
-The easiest way to dsee the result is to check the deployment link : https://promptopia-mope9cd14-jacquespoulin.vercel.app/
+The easiest way to see the result is to check the project here : https://promptopia-mope9cd14-jacquespoulin.vercel.app/

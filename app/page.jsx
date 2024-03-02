@@ -1,7 +1,22 @@
-import React from 'react';
+'use client';
+
+import { useState, useEffect } from 'react';
+
 import Feed from '@components/Feed';
 
 const Home = () => {
+	const [allPosts, setAllPosts] = useState([]);
+
+	const fetchPosts = async () => {
+		const response = await fetch('/api/prompt');
+		const data = await response.json();
+
+		setAllPosts(data);
+	};
+
+	useEffect(() => {
+		fetchPosts();
+	}, []);
 	return (
 		<section className='w-full flex-center flex-col'>
 			<h1 className='head_text text-center'>
@@ -18,7 +33,7 @@ const Home = () => {
 			</p>
 
 			{/* COMPOSANT FEED */}
-			<Feed />
+			<Feed allPosts={allPosts} />
 		</section>
 	);
 };

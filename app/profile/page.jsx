@@ -13,6 +13,10 @@ const MyProfile = () => {
 	const [myPosts, setMyPosts] = useState([]);
 
 	useEffect(() => {
+		location.reload();
+	}, [])
+
+	useEffect(() => {
 		const fetchPosts = async () => {
 			const response = await fetch(`/api/users/${session?.user.id}/posts`);
 			const data = await response.json();

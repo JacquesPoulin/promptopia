@@ -23,7 +23,7 @@ const Home = () => {
 				Découvrir & Partager
 				<br className='max-md:hidden' />
 				<span className='orange_gradient text-center'>
-					Prompts généré par IA
+					Prompts générés par IA
 				</span>
 			</h1>
 			<p className='desc text-center'>
